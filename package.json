@@ -1,0 +1,33 @@
+{
+  "name": "wc2.0",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "pre": "vue-cli-service build --mode pre",
+    "test": "vue-cli-service build --mode test",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.4",
+    "element-ui": "^2.12.0",
+    "es6-promise": "^4.2.5",
+    "moment": "^2.22.2",
+    "vue": "^2.5.17",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "vuex-persist": "^1.8.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "compression-webpack-plugin": "^2.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
